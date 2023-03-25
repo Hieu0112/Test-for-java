@@ -1,0 +1,18 @@
+
+Mô tả công cụ sửa đổi
+i Thực hiện đối sánh không phân biệt chữ hoa chữ thường
+g Thực hiện đối sánh toàn cầu
+gi Thực hiện đối sánh toàn cục không phân biệt chữ hoa chữ thường
+^ Nhận một kết quả phù hợp ở đầu một chuỗi
+$ Nhận một kết quả phù hợp ở cuối một chuỗi
+[xyz] Tìm bất kỳ ký tự nào trong bộ ký tự được chỉ định
+[^ xyz] Tìm bất kỳ ký tự nào không có trong bộ ký tự được chỉ định
+\\ w Tìm bất kỳ ký tự chữ và số nào bao gồm cả dấu gạch ngang
+\\ d Tìm bất kỳ chữ số đơn nào
+\\ s Tìm bất kỳ ký tự khoảng trắng nào
+? Tìm số không hoặc một lần xuất hiện của biểu thức chính quy
+* Tìm không hoặc nhiều lần xuất hiện của biểu thức chính quy
++ Tìm một hoặc nhiều lần xuất hiện của biểu thức chính quy
+() Tìm nhóm ký tự bên trong dấu ngoặc đơn và lưu trữ chuỗi đối sánh
+X {n} Khớp với bất kỳ chuỗi nào có chứa một chuỗi n X
+X {n, m} Đối sánh bất kỳ chuỗi nào có chứa chuỗi X với chuỗi Y n
